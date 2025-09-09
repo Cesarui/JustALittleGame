@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -8,19 +9,35 @@ public class Movement : MonoBehaviour
     [SerializeField] float speed = 5;
     [SerializeField] float jumpStrenght = 2;
 
-    float horizontalMove;
+    Rigidbody2D rb;
 
-    // Update is called once per frame
+    float horizontalMove;
+    bool facingRight;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal");
 
-        transform.Translate(horizontalMove * speed * Time.deltaTime, 0, 0);
+        
+
         Debug.Log(horizontalMove);
 
-        if(horizontalMove < 0)
+        if(horizontalMove == -1)
         {
-            transform.Rotate(0, 180, 0);
+            rb.transform.Translate(Vector2.left * speed * horizontalMove);
+            rb.transform.eulerAngles = new Vector2(0, 180);
         }
+        else if(horizontalMove == 1)
+        {
+            rb.transform.Translate(Vector2.right * speed * horizontalMove);
+            rb.transform.eulerAngles = new Vector2(0, 0);
+        }
+        
     }
+
 }

@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObject: {fileID: 1164820487}
-  speed: 3
+  speed: 0.01
   jumpStrenght: 2
 --- !u!61 &1164820494
 BoxCollider2D:
@@ -998,7 +998,7 @@ Transform:
   m_GameObject: {fileID: 1397853866}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.18, y: -0.56, z: 0}
+  m_LocalPosition: {x: 5.65, y: -0.56, z: 0}
   m_LocalScale: {x: 0.141492, y: 0.141492, z: 0.141492}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1344,7 +1344,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0124, y: 0.002, z: 0}
-  m_LocalScale: {x: 0.85169214, y: 0.63614094, z: 1.225842}
+  m_LocalScale: {x: 0.894676, y: 0.63614094, z: 1.225842}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1565,7 +1565,7 @@ Transform:
   m_GameObject: {fileID: 1759833534}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.79, y: -2.95, z: 0}
+  m_LocalPosition: {x: -6.89, y: -2.95, z: 0}
   m_LocalScale: {x: 0.15685312, y: 0.13, z: 0.13}
   m_ConstrainProportionsScale: 0
   m_Children: []
