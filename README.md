@@ -1,6 +1,6 @@
 ## Just a little game:) 
 
-It's been a bit since I've made a game dev project without following my courses. I'll be implementing any ideas I come up with! The scope will be small for now but as I learn new things it will grow! 
+It's been a bit since I've made a game dev project without following my courses. I'll be implementing any ideas I come up with!
 
 > *"For the things we have to learn before we can do them, we learn by doing them." – Aristotle*
 
