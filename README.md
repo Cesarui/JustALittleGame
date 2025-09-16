@@ -1,6 +1,6 @@
 ## Just a little game:) 
 
-It's been a bit since I've made a game dev project without following my courses. I'll be implementing any ideas I come up with!
+It's been a bit since I've made a game dev project without following my courses. The original goal was to increase the scope of the game and implement any ideas, but the goal now is to just finish it with only simple movement and once the player reaches the flag they win.
 
 > *"For the things we have to learn before we can do them, we learn by doing them." – Aristotle*
 
