@@ -29,8 +29,6 @@ public class Movement : MonoBehaviour
         horizontalMove = Input.GetAxisRaw("Horizontal");
         jumpInput = Input.GetAxisRaw("Jump");
 
-        Debug.Log(horizontalMove);
-
         if(horizontalMove == -1)
         {
             rb.transform.Translate(Vector2.left * speed * horizontalMove);
